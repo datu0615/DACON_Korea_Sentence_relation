@@ -3,20 +3,20 @@
 
 ## Dataset
 1. train_data.csv
-├ Index : train data index
-├ Premise : 실제 Text
-├ Hypothesis : 가설 Text
-└ Label : 참(Entailment) 또는 거짓(Contradiction) 또는 중립(Neutral)
+├ Index : train data index  
+├ Premise : 실제 Text  
+├ Hypothesis : 가설 Text  
+└ Label : 참(Entailment) 또는 거짓(Contradiction) 또는 중립(Neutral)  
 
 2. test_data.csv
-├ Index : test data index
-├ Premise : 실제 Text
-├Hypothesis : 가설 Text
-└Label : 추론해야 하는 Label 값
+├ Index : test data index  
+├ Premise : 실제 Text  
+├Hypothesis : 가설 Text  
+└Label : 추론해야 하는 Label 값  
 
 3. sample_submission.csv
-├ Index : test data index
-└Label : 추론해야 하는 Label 값
+├ Index : test data index  
+└Label : 추론해야 하는 Label 값  
 
 ## Model
 klue/roberta-large 모델을 사용하였으며 StratifiedKFold를 사용하여 모델을 검증하였습니다.
