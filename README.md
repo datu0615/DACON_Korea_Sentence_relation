@@ -25,5 +25,7 @@
 klue/roberta-large 모델을 사용하였으며 StratifiedKFold를 사용하여 모델을 검증하였습니다.
 
 
-## Results
-Public Score : 0.88, Private Score : 0.87635로 최종 42등으로 상위 10% 안에 들며 대회를 마무리하였습니다. 
+## Results 
+Public Score : 0.88, Private Score : 0.87635로 최종 42등으로 상위 10% 안에 들며 대회를 마무리하였습니다.   
+
+![20220524_105148](https://user-images.githubusercontent.com/84311270/169932529-de69fc52-fb53-4be9-a2f4-cab4d1bef095.png)
